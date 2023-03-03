@@ -13,8 +13,6 @@
 		CE3F810229AFB7B000C4B12F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3F810029AFB7B000C4B12F /* Main.storyboard */; };
 		CE3F810429AFB7B300C4B12F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3F810329AFB7B300C4B12F /* Assets.xcassets */; };
 		CE3F810729AFB7B300C4B12F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3F810529AFB7B300C4B12F /* LaunchScreen.storyboard */; };
-		CE3F811C29AFB7B300C4B12F /* IdeaSoftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F811B29AFB7B300C4B12F /* IdeaSoftUITests.swift */; };
-		CE3F811E29AFB7B300C4B12F /* IdeaSoftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F811D29AFB7B300C4B12F /* IdeaSoftUITestsLaunchTests.swift */; };
 		CE3F812B29AFC04700C4B12F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F812A29AFC04700C4B12F /* Network.swift */; };
 		CE3F812F29AFC1C600C4B12F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F812E29AFC1C600C4B12F /* Item.swift */; };
 		CE3F813329B0A2EF00C4B12F /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F813229B0A2EF00C4B12F /* ListViewModel.swift */; };
@@ -37,13 +35,6 @@
 			remoteGlobalIDString = CE3F80F629AFB7B000C4B12F;
 			remoteInfo = IdeaSoft;
 		};
-		CE3F811829AFB7B300C4B12F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE3F80EF29AFB7B000C4B12F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CE3F80F629AFB7B000C4B12F;
-			remoteInfo = IdeaSoft;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -56,9 +47,6 @@
 		CE3F810629AFB7B300C4B12F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3F810829AFB7B300C4B12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE3F810D29AFB7B300C4B12F /* IdeaSoftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdeaSoftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE3F811729AFB7B300C4B12F /* IdeaSoftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdeaSoftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE3F811B29AFB7B300C4B12F /* IdeaSoftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaSoftUITests.swift; sourceTree = "<group>"; };
-		CE3F811D29AFB7B300C4B12F /* IdeaSoftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaSoftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CE3F812A29AFC04700C4B12F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		CE3F812E29AFC1C600C4B12F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CE3F813229B0A2EF00C4B12F /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
@@ -88,13 +76,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE3F811429AFB7B300C4B12F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -103,7 +84,6 @@
 			children = (
 				CE3F80F929AFB7B000C4B12F /* IdeaSoft */,
 				CE3F811029AFB7B300C4B12F /* IdeaSoftTests */,
-				CE3F811A29AFB7B300C4B12F /* IdeaSoftUITests */,
 				CE3F80F829AFB7B000C4B12F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,7 +93,6 @@
 			children = (
 				CE3F80F729AFB7B000C4B12F /* IdeaSoft.app */,
 				CE3F810D29AFB7B300C4B12F /* IdeaSoftTests.xctest */,
-				CE3F811729AFB7B300C4B12F /* IdeaSoftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,15 +123,6 @@
 				CE3F814829B2193A00C4B12F /* ListViewModelTests.swift */,
 			);
 			path = IdeaSoftTests;
-			sourceTree = "<group>";
-		};
-		CE3F811A29AFB7B300C4B12F /* IdeaSoftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CE3F811B29AFB7B300C4B12F /* IdeaSoftUITests.swift */,
-				CE3F811D29AFB7B300C4B12F /* IdeaSoftUITestsLaunchTests.swift */,
-			);
-			path = IdeaSoftUITests;
 			sourceTree = "<group>";
 		};
 		CE3F812C29AFC04C00C4B12F /* Services */ = {
@@ -246,24 +216,6 @@
 			productReference = CE3F810D29AFB7B300C4B12F /* IdeaSoftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CE3F811629AFB7B300C4B12F /* IdeaSoftUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE3F812729AFB7B300C4B12F /* Build configuration list for PBXNativeTarget "IdeaSoftUITests" */;
-			buildPhases = (
-				CE3F811329AFB7B300C4B12F /* Sources */,
-				CE3F811429AFB7B300C4B12F /* Frameworks */,
-				CE3F811529AFB7B300C4B12F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CE3F811929AFB7B300C4B12F /* PBXTargetDependency */,
-			);
-			name = IdeaSoftUITests;
-			productName = IdeaSoftUITests;
-			productReference = CE3F811729AFB7B300C4B12F /* IdeaSoftUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -278,10 +230,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					CE3F810C29AFB7B300C4B12F = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = CE3F80F629AFB7B000C4B12F;
-					};
-					CE3F811629AFB7B300C4B12F = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = CE3F80F629AFB7B000C4B12F;
 					};
@@ -302,7 +250,6 @@
 			targets = (
 				CE3F80F629AFB7B000C4B12F /* IdeaSoft */,
 				CE3F810C29AFB7B300C4B12F /* IdeaSoftTests */,
-				CE3F811629AFB7B300C4B12F /* IdeaSoftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -324,13 +271,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE3F814529B2123C00C4B12F /* ItemResponse.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE3F811529AFB7B300C4B12F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,15 +304,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE3F811329AFB7B300C4B12F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE3F811E29AFB7B300C4B12F /* IdeaSoftUITestsLaunchTests.swift in Sources */,
-				CE3F811C29AFB7B300C4B12F /* IdeaSoftUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -380,11 +311,6 @@
 			isa = PBXTargetDependency;
 			target = CE3F80F629AFB7B000C4B12F /* IdeaSoft */;
 			targetProxy = CE3F810E29AFB7B300C4B12F /* PBXContainerItemProxy */;
-		};
-		CE3F811929AFB7B300C4B12F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CE3F80F629AFB7B000C4B12F /* IdeaSoft */;
-			targetProxy = CE3F811829AFB7B300C4B12F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -622,42 +548,6 @@
 			};
 			name = Release;
 		};
-		CE3F812829AFB7B300C4B12F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U6LBPC44D7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tarabanov.IdeaSoftUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = IdeaSoft;
-			};
-			name = Debug;
-		};
-		CE3F812929AFB7B300C4B12F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U6LBPC44D7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tarabanov.IdeaSoftUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = IdeaSoft;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -684,15 +574,6 @@
 			buildConfigurations = (
 				CE3F812529AFB7B300C4B12F /* Debug */,
 				CE3F812629AFB7B300C4B12F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE3F812729AFB7B300C4B12F /* Build configuration list for PBXNativeTarget "IdeaSoftUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE3F812829AFB7B300C4B12F /* Debug */,
-				CE3F812929AFB7B300C4B12F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
