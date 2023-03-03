@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		CE3F80FB29AFB7B000C4B12F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F80FA29AFB7B000C4B12F /* AppDelegate.swift */; };
 		CE3F80FD29AFB7B000C4B12F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F80FC29AFB7B000C4B12F /* SceneDelegate.swift */; };
-		CE3F80FF29AFB7B000C4B12F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F80FE29AFB7B000C4B12F /* ViewController.swift */; };
+		CE3F80FF29AFB7B000C4B12F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F80FE29AFB7B000C4B12F /* ListViewController.swift */; };
 		CE3F810229AFB7B000C4B12F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3F810029AFB7B000C4B12F /* Main.storyboard */; };
 		CE3F810429AFB7B300C4B12F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3F810329AFB7B300C4B12F /* Assets.xcassets */; };
 		CE3F810729AFB7B300C4B12F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3F810529AFB7B300C4B12F /* LaunchScreen.storyboard */; };
-		CE3F811229AFB7B300C4B12F /* IdeaSoftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F811129AFB7B300C4B12F /* IdeaSoftTests.swift */; };
 		CE3F811C29AFB7B300C4B12F /* IdeaSoftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F811B29AFB7B300C4B12F /* IdeaSoftUITests.swift */; };
 		CE3F811E29AFB7B300C4B12F /* IdeaSoftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F811D29AFB7B300C4B12F /* IdeaSoftUITestsLaunchTests.swift */; };
+		CE3F812B29AFC04700C4B12F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F812A29AFC04700C4B12F /* Network.swift */; };
+		CE3F812F29AFC1C600C4B12F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F812E29AFC1C600C4B12F /* Item.swift */; };
+		CE3F813329B0A2EF00C4B12F /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F813229B0A2EF00C4B12F /* ListViewModel.swift */; };
+		CE3F813629B0A96C00C4B12F /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F813429B0A96C00C4B12F /* ListCell.swift */; };
+		CE3F813729B0A96C00C4B12F /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3F813529B0A96C00C4B12F /* ListCell.xib */; };
+		CE3F813929B11D9100C4B12F /* TableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F813829B11D9100C4B12F /* TableView+Extension.swift */; };
+		CE3F813C29B11E1C00C4B12F /* ReusableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F813B29B11E1C00C4B12F /* ReusableViewProtocol.swift */; };
+		CE3F813E29B123FC00C4B12F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F813D29B123FC00C4B12F /* DetailViewController.swift */; };
+		CE3F814129B2102300C4B12F /* MockNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F814029B2102300C4B12F /* MockNetwork.swift */; };
+		CE3F814529B2123C00C4B12F /* ItemResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = CE3F814429B2123C00C4B12F /* ItemResponse.json */; };
+		CE3F814729B212A100C4B12F /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F814629B212A100C4B12F /* Mockable.swift */; };
+		CE3F814929B2193A00C4B12F /* ListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F814829B2193A00C4B12F /* ListViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +50,27 @@
 		CE3F80F729AFB7B000C4B12F /* IdeaSoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdeaSoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3F80FA29AFB7B000C4B12F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE3F80FC29AFB7B000C4B12F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE3F80FE29AFB7B000C4B12F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE3F80FE29AFB7B000C4B12F /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		CE3F810129AFB7B000C4B12F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE3F810329AFB7B300C4B12F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3F810629AFB7B300C4B12F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3F810829AFB7B300C4B12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE3F810D29AFB7B300C4B12F /* IdeaSoftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdeaSoftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE3F811129AFB7B300C4B12F /* IdeaSoftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaSoftTests.swift; sourceTree = "<group>"; };
 		CE3F811729AFB7B300C4B12F /* IdeaSoftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdeaSoftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3F811B29AFB7B300C4B12F /* IdeaSoftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaSoftUITests.swift; sourceTree = "<group>"; };
 		CE3F811D29AFB7B300C4B12F /* IdeaSoftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaSoftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE3F812A29AFC04700C4B12F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		CE3F812E29AFC1C600C4B12F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CE3F813229B0A2EF00C4B12F /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		CE3F813429B0A96C00C4B12F /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		CE3F813529B0A96C00C4B12F /* ListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+		CE3F813829B11D9100C4B12F /* TableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Extension.swift"; sourceTree = "<group>"; };
+		CE3F813B29B11E1C00C4B12F /* ReusableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewProtocol.swift; sourceTree = "<group>"; };
+		CE3F813D29B123FC00C4B12F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CE3F814029B2102300C4B12F /* MockNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetwork.swift; sourceTree = "<group>"; };
+		CE3F814429B2123C00C4B12F /* ItemResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ItemResponse.json; sourceTree = "<group>"; };
+		CE3F814629B212A100C4B12F /* Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockable.swift; sourceTree = "<group>"; };
+		CE3F814829B2193A00C4B12F /* ListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +121,12 @@
 		CE3F80F929AFB7B000C4B12F /* IdeaSoft */ = {
 			isa = PBXGroup;
 			children = (
-				CE3F80FA29AFB7B000C4B12F /* AppDelegate.swift */,
-				CE3F80FC29AFB7B000C4B12F /* SceneDelegate.swift */,
-				CE3F80FE29AFB7B000C4B12F /* ViewController.swift */,
+				CE3F812D29AFC06400C4B12F /* Main */,
+				CE3F813129B0A2A300C4B12F /* ItemsList */,
+				CE3F813F29B1240100C4B12F /* Details */,
+				CE3F813029AFC1CB00C4B12F /* Models */,
+				CE3F812C29AFC04C00C4B12F /* Services */,
+				CE3F813A29B11D9500C4B12F /* Extensions */,
 				CE3F810029AFB7B000C4B12F /* Main.storyboard */,
 				CE3F810329AFB7B300C4B12F /* Assets.xcassets */,
 				CE3F810529AFB7B300C4B12F /* LaunchScreen.storyboard */,
@@ -113,7 +138,10 @@
 		CE3F811029AFB7B300C4B12F /* IdeaSoftTests */ = {
 			isa = PBXGroup;
 			children = (
-				CE3F811129AFB7B300C4B12F /* IdeaSoftTests.swift */,
+				CE3F814029B2102300C4B12F /* MockNetwork.swift */,
+				CE3F814429B2123C00C4B12F /* ItemResponse.json */,
+				CE3F814629B212A100C4B12F /* Mockable.swift */,
+				CE3F814829B2193A00C4B12F /* ListViewModelTests.swift */,
 			);
 			path = IdeaSoftTests;
 			sourceTree = "<group>";
@@ -125,6 +153,59 @@
 				CE3F811D29AFB7B300C4B12F /* IdeaSoftUITestsLaunchTests.swift */,
 			);
 			path = IdeaSoftUITests;
+			sourceTree = "<group>";
+		};
+		CE3F812C29AFC04C00C4B12F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F812A29AFC04700C4B12F /* Network.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CE3F812D29AFC06400C4B12F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F80FA29AFB7B000C4B12F /* AppDelegate.swift */,
+				CE3F80FC29AFB7B000C4B12F /* SceneDelegate.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		CE3F813029AFC1CB00C4B12F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F812E29AFC1C600C4B12F /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE3F813129B0A2A300C4B12F /* ItemsList */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F80FE29AFB7B000C4B12F /* ListViewController.swift */,
+				CE3F813229B0A2EF00C4B12F /* ListViewModel.swift */,
+				CE3F813429B0A96C00C4B12F /* ListCell.swift */,
+				CE3F813529B0A96C00C4B12F /* ListCell.xib */,
+			);
+			path = ItemsList;
+			sourceTree = "<group>";
+		};
+		CE3F813A29B11D9500C4B12F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F813829B11D9100C4B12F /* TableView+Extension.swift */,
+				CE3F813B29B11E1C00C4B12F /* ReusableViewProtocol.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE3F813F29B1240100C4B12F /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F813D29B123FC00C4B12F /* DetailViewController.swift */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE3F810729AFB7B300C4B12F /* LaunchScreen.storyboard in Resources */,
+				CE3F813729B0A96C00C4B12F /* ListCell.xib in Resources */,
 				CE3F810429AFB7B300C4B12F /* Assets.xcassets in Resources */,
 				CE3F810229AFB7B000C4B12F /* Main.storyboard in Resources */,
 			);
@@ -241,6 +323,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3F814529B2123C00C4B12F /* ItemResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +341,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3F80FF29AFB7B000C4B12F /* ViewController.swift in Sources */,
+				CE3F812F29AFC1C600C4B12F /* Item.swift in Sources */,
+				CE3F80FF29AFB7B000C4B12F /* ListViewController.swift in Sources */,
+				CE3F813C29B11E1C00C4B12F /* ReusableViewProtocol.swift in Sources */,
+				CE3F813329B0A2EF00C4B12F /* ListViewModel.swift in Sources */,
+				CE3F813629B0A96C00C4B12F /* ListCell.swift in Sources */,
 				CE3F80FB29AFB7B000C4B12F /* AppDelegate.swift in Sources */,
+				CE3F812B29AFC04700C4B12F /* Network.swift in Sources */,
+				CE3F813E29B123FC00C4B12F /* DetailViewController.swift in Sources */,
 				CE3F80FD29AFB7B000C4B12F /* SceneDelegate.swift in Sources */,
+				CE3F813929B11D9100C4B12F /* TableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +358,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3F811229AFB7B300C4B12F /* IdeaSoftTests.swift in Sources */,
+				CE3F814129B2102300C4B12F /* MockNetwork.swift in Sources */,
+				CE3F814729B212A100C4B12F /* Mockable.swift in Sources */,
+				CE3F814929B2193A00C4B12F /* ListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,9 +527,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L8DY4ST653;
+				DEVELOPMENT_TEAM = U6LBPC44D7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IdeaSoft/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -452,6 +545,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tarabanov.IdeaSoft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,9 +557,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L8DY4ST653;
+				DEVELOPMENT_TEAM = U6LBPC44D7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IdeaSoft/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -480,6 +575,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tarabanov.IdeaSoft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -532,7 +628,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L8DY4ST653;
+				DEVELOPMENT_TEAM = U6LBPC44D7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tarabanov.IdeaSoftUITests;
@@ -550,7 +646,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L8DY4ST653;
+				DEVELOPMENT_TEAM = U6LBPC44D7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tarabanov.IdeaSoftUITests;
